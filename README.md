@@ -14,4 +14,4 @@
   - performs segmentation of speech files 
 
 **Note:**
-- Input data use aquired from https://robertmassaioli.bitbucket.io/alphabet-upload.html?
+- Input data was aquired from https://robertmassaioli.bitbucket.io/alphabet-upload.html?
