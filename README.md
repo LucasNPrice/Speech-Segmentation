@@ -8,10 +8,7 @@
 - Speech-Segmentation pipeline segments each .wav file into 26 separate .wav files, each containing a distinct spoken letter.  
 
 **audioProcessing.py**
-  - audio processing methods (currently only stero-to-mono)
-  
-**detectSpeech.py**
-  - performs segmentation of speech files 
+  - audio processing and speech segmentation methods
   
 
 ![Image description](img.png)
