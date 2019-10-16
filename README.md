@@ -12,6 +12,10 @@
   
 **detectSpeech.py**
   - performs segmentation of speech files 
+  
+
+![Image description](img.png)
+
 
 **Note:**
 - Input data was aquired from https://robertmassaioli.bitbucket.io/alphabet-upload.html?
