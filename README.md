@@ -10,6 +10,14 @@
 **audioProcessing.py**
   - audio processing and speech segmentation methods
   
+**Performance Parameters**
+  - optimal parameters will likely need to be found by trial and error initially 
+  - **Moving Average Window and Scale**
+    - moving average window size is automaticlly set to n_speech_blocks * scale, and is centered (left and right = windowsize / 2)
+    - scale shrinks the windowsize to avoid oversmoothing (best smoothing results when setting scale ~4)
+  - **Segmentation Threshold**
+    - segmentation threshold performs well at 0.05 (95% above threshold kept)
+  
 
 ![Image description](img.png)
 
